@@ -1,0 +1,79 @@
+.wrapper {
+    /*text-align: center;
+    margin-left: auto;
+    margin-right: auto;*/
+    display:inline-block;
+    border: 10px solid black ;
+    border-radius : 10px 10px 10px 10px;
+}
+
+body {
+    text-align: center; /* reset this so you can you display:inline-block in wrapper */
+    background-color: aliceblue;
+}
+
+#output {
+}
+
+#outputTyped {
+    width: 310Px;
+    height: 80Px;
+    background-color: #D4D4D4; /*light grey*/
+    font-size: 18Px;
+    text-align: right;
+    padding: 4Px;
+    border-right: 1Px solid white;
+    border-left: 1Px solid white;
+    border-top: 1Px solid white;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+#total {
+    width: 310Px;
+    height: 40Px;
+    background-color: #D4D4D4; /*light grey*/
+    font-size: 28Px;
+    text-align: right;
+    padding: 4Px;
+    border-right: 1Px solid white;
+    border-left: 1Px solid white;
+    border-bottom: 1Px solid white;
+    font-weight: bold;
+}
+
+#btnContainer {   
+}
+
+button {
+    border: 1Px solid white;
+    background-color: #F1F1F1 ; /* light grey */
+    font-size: 24Px;
+    float: left;
+    transition-duration: 0.5s;
+    width: 80px;
+    height: 80px;
+}
+    
+button:hover
+{
+    background-color: #909090;  /*dark grey*/
+    cursor: pointer;
+}
+
+#btnEquals {
+    width: 160px;
+    background-color: #00FFFF;  /* aqua */
+}
+
+#btnEquals:hover
+{
+    background-color: #ADD8E6; /* light blue */
+    cursor: pointer;  
+}
+
+.newRow {
+    clear: both;
+}
+
